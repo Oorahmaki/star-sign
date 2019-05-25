@@ -24,7 +24,7 @@ body{
     text-align: center;
 }
 
-input{
+select{
     border-radius: 5px;
     text-align: center;
     height: 50px;
@@ -42,4 +42,19 @@ label{
 *{
     font-family: "lobster";
     letter-spacing: 0.5em;
+}
+
+button{
+    width: 100px;
+    border-radius: 5px;
+    justify-self: center;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: gold;
+}
+
+#result{
+    color: whitesmoke;
 }
